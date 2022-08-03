@@ -1,0 +1,12 @@
+use('test-db')
+
+
+//ex 5
+db.linkedon.count({
+  $or :[
+    {'currentCompany.name': 'Apple'},
+    {'previousCompanies.name': 'Apple'}
+  ]
+  
+})
+

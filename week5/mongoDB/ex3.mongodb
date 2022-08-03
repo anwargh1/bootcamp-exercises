@@ -1,0 +1,17 @@
+use('test-db')
+
+//ex4
+db.linkedon.find({
+  
+          $or : [
+            {'currentCompany.industry': 'Sales'},
+            {'currentCompany.industry': 'Retail'}   
+  ]
+},
+{
+  firstName : 1 ,
+  lastName : 1,
+  'currentCompany.name' : 1 ,
+  _id : 0 
+}
+).sort({ salary :-1}).limit(1)

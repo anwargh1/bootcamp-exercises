@@ -1,0 +1,31 @@
+#container { 
+    background-color: rgb(96, 96, 96);
+    width:222px;
+    height: 126px;
+    box-shadow: 4px 5px 6px rgb(9 7 7);
+
+
+}
+#first {
+    background-color: rgb(252, 17, 17);
+    height: 35px;
+    width: 35px;
+    border: black 2px solid;
+    margin-left: 2px;
+    display: inline-block;}
+
+ #second{
+     background-color: rgb(10, 126, 41);
+    border: black 2px solid;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+
+
+}
+
+.button {
+    background-color: rgb(151, 209, 59);
+    display: inline;
+
+}
